@@ -99,11 +99,11 @@ label {
 <form action="" method="post">
 <div class="block">
     <label>Modulus</label>
-    <input type="text" style="width:410px;" name="modulus" value="<?php echo $_POST['modulus']; //Don't use this in production environment, as the data retrieved is not filtered (more info at https://owasp.org/www-community/attacks/xss/).  ?>">
+    <input type="text" style="width:410px;" name="modulus" value="<?php echo $_POST['modulus']; ?>">
 </div>
 <div class="block">
     <label>Exponent</label>
-    <input type="text" style="width:410px;" name="exponent"  value="<?php echo $_POST['exponent']; //Don't use this in production environment, as the data retrieved is not filtered (more info at https://owasp.org/www-community/attacks/xss/).  ?>">
+    <input type="text" style="width:410px;" name="exponent"  value="<?php echo $_POST['exponent']; ?>">
 </div>
 <input type="submit" value="Generate public key">
 </form>
