@@ -1,2 +1,2 @@
 # PHP JWT generator
-This is a simple proof-of-concept script for generating valid JWT tokens that can be used by Okta for [OAuth for Okta API Client Credentials method](https://developer.okta.com/docs/guides/implement-oauth-for-okta/use-client-credentials-grant-flow/).
+This is a simple proof-of-concept script for generating valid JWTs that can be used by Okta for [OAuth for Okta API Client Credentials method](https://developer.okta.com/docs/guides/implement-oauth-for-okta/use-client-credentials-grant-flow/).
