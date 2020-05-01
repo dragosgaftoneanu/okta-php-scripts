@@ -6,3 +6,4 @@ This is a simple PHP application that generates hashed password for [Create User
 * SHA1
 * SHA256
 * SHA512
+* BCRYPT
